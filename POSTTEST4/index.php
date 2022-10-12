@@ -1,0 +1,51 @@
+<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <script src="jQuery.js"></script>
+</head>
+<body id="body">
+    <div class="header">
+       <nav class="head"> 
+        <div class="nama">Driann Cell</div>
+        <div class="cari"><input type="text" placeholder="Search"></div>
+        <ul class="navigation">
+            <li><a href="/"class="active">Home</a></li>
+            <li><a href="">About Me</a></li>
+        </ul>
+       </nav>
+    </div>
+    <div class="foto">
+        <div class="isikonten">
+            <div class="logo">
+                <img src="https://4.bp.blogspot.com/-Br1ogLkG0kY/UNok1XX3WiI/AAAAAAAAEak/pTpUXcqmcqo/s1600/Logo+TELKOMSEL.jpg" width= "300" height= "300"alt=""></div>
+            <div class="logo">
+                <img src="https://static.republika.co.id/uploads/images/inpicture_slide/logo-tri-_131227204458-980.jpg" width= "300" height= "300" alt=""></div>
+            <div class="logo">   
+                <img src="https://th.bing.com/th/id/OIP.MEciP8w8LGEu4Yk_vjKfkAHaEy?pid=ImgDet&w=482&h=312&rs=1" width= "300" height= "300" alt=""></div>
+            <div class="logo">   
+                <img src="https://i.pinimg.com/originals/5f/e1/6b/5fe16bc7708a8f4c7055af48573f8b11.jpg" width= "300" height= "300" alt=""></div>   
+        </div>
+    </div>
+    <div class="about">
+        <div class="me">
+            <div class="to">
+                <h1>ABOUT ME</h1><br>
+                <h4>Nama: Adrian Tasmin <br>
+                    NIM: 2009106112 <br>
+                    Program Studi: Informatika <br>
+                    Angkatan: 2020 <br>
+                    Hobi:Badminton <br>
+                </h4>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+?>
