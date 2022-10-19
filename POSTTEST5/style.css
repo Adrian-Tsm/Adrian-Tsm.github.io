@@ -1,0 +1,88 @@
+*,html,body{
+    margin:0;
+    padding:0;
+    
+}
+.header{
+   display: flex;
+   width: 100%;
+}
+
+.head{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    background-color:rgb(8, 8, 8);
+}
+.isikonten{
+    display: flex;
+    float: left;
+    width: 100%;
+}
+.nama{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: row;
+    color: greenyellow;
+    font-size:33px;
+    padding: 9px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.navigation{
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+}
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+    float: left;
+}
+.navigation > li > a{
+    color: greenyellow;
+    font-size: 20px;
+    text-decoration: none;
+}
+.cari{
+    padding: 15px;
+    width: 50%;
+    color: greenyellow;
+}
+.cari>input{
+    width: 50%;
+    height: 120%;
+}
+.navigation>li>a:hover{
+    color: aliceblue;
+}
+.logo :hover{
+    padding: 10px;
+    text-align: center;
+}
+.logo{
+    margin-top: 100px;
+    padding: 17px;
+    text-align: center;
+}
+.foto{
+
+}
+.about{
+    font-size: 20px;
+    background-color: greenyellow;
+    padding-left: 10px;
+}
+
+.me{
+    /* border: 1px solid coral;
+    border-radius: 10px; */
+    /* background-color: black; */
+    margin: 10px;
+    flex: 1;
+}
